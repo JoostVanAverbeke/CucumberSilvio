@@ -34,11 +34,17 @@ GIT
       silvio_gen (~> 1.1.0.dev)
 
 GIT
-  remote: https://git.mips.be:8443/r/HIS/Silvio_hl7_factory.git
-  revision: a88e58e20bd6fde052d715047fa733da166ed8af
+  remote: https://git.mips.be:8443/r/HIS/Silvio_glims_factory.git
+  revision: ecbfdf811431b99608b2dd9d33e8292655384025
   specs:
-    silvio_hl7_factory (0.1.0)
+    silvio_glims_factory (0.1.0)
       factory_girl (~> 4.2)
+
+GIT
+  remote: https://git.mips.be:8443/r/HIS/Silvio_glims_faker.git
+  revision: 0034a3f55157a221ffc7342f6f7f93dd8a314be9
+  specs:
+    silvio_glims_faker (0.1.0)
       faker (~> 1.8.7, >= 1.8.7)
 
 GEM
@@ -199,7 +205,8 @@ DEPENDENCIES
   silvio_core!
   silvio_gen!
   silvio_glims!
-  silvio_hl7_factory!
+  silvio_glims_factory!
+  silvio_glims_faker!
 
 BUNDLED WITH
    1.17.3

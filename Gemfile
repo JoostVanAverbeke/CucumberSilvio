@@ -16,7 +16,8 @@ gem "faker", "~> 1.8.0"
 gem 'silvio_core', git: 'https://git.mips.be:8443/r/HIS/Silvio_core.git'
 gem 'silvio_gen', git: 'https://git.mips.be:8443/r/HIS/Silvio_gen.git'
 gem 'silvio_glims', git: 'https://git.mips.be:8443/r/HIS/Silvio_glims.git'
-gem 'silvio_hl7_factory', git: 'https://git.mips.be:8443/r/HIS/Silvio_hl7_factory.git'
+gem 'silvio_glims_faker', git: 'https://git.mips.be:8443/r/HIS/Silvio_glims_faker.git'
+gem 'silvio_glims_factory', git: 'https://git.mips.be:8443/r/HIS/Silvio_glims_factory.git'
 
 # # Randomizer, a tool for generating random stuff...
 gem "factory_randomizer", "~> 0.1.0"
